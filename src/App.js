@@ -5,11 +5,12 @@ import Login from './components/Login';
 
 function App() {
   return (
-    <div className=' bg-violet-800 text-slate-300 flex-auto text-center'>
+    <main className='min-h-screen bg-violet-800 flex justify-center items-center'>
+    <div className=' bg-slate-200 text-slate-600 text-center rounded-3xl mx-52 py-6'>
       <Login></Login>
       <Counter/>
     </div>
-    
+    </main>
   );
 }
 
